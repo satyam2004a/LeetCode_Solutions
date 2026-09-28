@@ -7,7 +7,7 @@ public:
             mp[arr[i]]++;
         }
 
-        set<int> s;
+        unordered_set<int> s;
         for(auto p: mp){
             s.insert(p.second);
         }  
